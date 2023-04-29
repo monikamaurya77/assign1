@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+     <div id="root2">
+
+    </div>
+
+    <div id="root3"></div>
+
+    <div id="root4">
+        
+    </div>
+
+    <script type="text/babel">
+        let spanStyle={
+            color:"skyBlue",
+            textDecoration: "underline"
+        }
+        let textStyle={
+            paddingLeft:"20px",
+            paddingRight:"20px"
+
+            
+
+        }
+
+        let div=<div1 ><h1 style={textStyle}> Learn Web Development</h1>
+
+                      <p style={textStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aut eveniet nam nesciunt numquam inventore, quasi voluptatibus reprehenderit dignissimos, laudantium explicabo neque impedit eos amet? Qui, quasi! Magni, consequuntur dolor.</p>
+            
+                      <p style={textStyle}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit ea, consequatur illum vero velit, beatae ullam doloribus ab in saepe blanditiis. Eos accusantium ab, assumenda perspiciatis voluptatum explicabo modi.
+                      Libero excepturi corporis accusamus quis nostrum. Ad maiores nesciunt, mollitia natus id soluta ab provident quam totam, tempora doloribus pariatur neque iure esse est voluptas ut debitis possimus molestiae dolorum!
+                      Ratione quas corporis sequi quaerat expedita dicta molestias doloremque, impedit ut vitae tempore aspernatur provident itaque tenetur adipisci iure <span style={spanStyle}>temporibus quibusdam</span>, doloribus id placeat quis vero sed! Fugiat, aspernatur vitae.</p>
+
+
+                     <p style={textStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quae accusantium voluptatibus, minus voluptates a dicta explicabo nihil eaque error repellat sequi doloribus unde fuga modi, voluptatum quibusdam magni fugit?
+                     Corporis nihil inventore maxime accusamus quaerat officia minus, et consectetur cupiditate ducimus sequi dignissimos? Vero laudantium deleniti fugiat distinctio, tempora quae incidunt, esse provident tenetur accusamus facere nulla quasi iusto?
+                     Autem magnam harum in eveniet facilis! Magnam officiis facilis hic optio sit laboriosam rem maiores earum temporibus? Cumque amet beatae quasi cum ducimus. Corporis autem asperiores quisquam odio voluptates. Exercitationem.
+                     Saepe adipisci perspiciatis fugiat animi officiis beatae quaerat voluptas illum! Tempore ea fuga neque iste perferendis voluptatibus distinctio, asperiores hic accusamus! Doloremque repellat consequuntur quo dolorem? Itaque nihil ad obcaecati?
+                     At, animi, et laborum ipsam natus itaque nostrum quisquam, explicabo vitae unde porro aliquam. Reiciendis, accusantium, ex provident alias deleniti eveniet accusamus, amet illo odit molestiae modi dicta tenetur neque?</p>
+            
+            
+            
+            
+            
+            
+            </div1>
+        
+
+        ReactDOM.render(div,document.getElementById('root'))
+       
+    </script>
+</body>
+</html>
